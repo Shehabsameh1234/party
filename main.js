@@ -37,7 +37,6 @@ $(btnNav).click(function () {
 
 //  singers
 $("#singers p").not(":first").hide()
-
 $("#singers h2").click(function(){
    $(this).next().slideToggle(600)
    $("p").not($(this).next()).slideUp(600)

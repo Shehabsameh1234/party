@@ -8,7 +8,7 @@
 }
 
 :root{
-    --maincolor:#f24632;
+    --maincolor:#ef354b;
 }
 /* global */
 
@@ -119,6 +119,7 @@ background-color: var(--maincolor);
 font-size: 25px;
 padding: 16px 3px;
 cursor: pointer;
+color: white;
 }
 
 #singers h2 + p{
@@ -129,6 +130,40 @@ cursor: pointer;
 }
 
 /* singers */
+
+
+
+/* duration */
+
+.bg-duration{
+    background-image: url(img/party-pg.webp);
+background-position: center;
+background-size: cover;
+width: 100%;
+height: 33vh;
+margin-top: 150px;
+
+}
+
+
+#duration .container div{
+   width: 120px;
+   height: 120px;
+   border: 3px solid white;
+   text-align: center;
+   transform: translateY(50%);
+   -webkit-transform: translateY(50%);
+   -moz-transform: translateY(50%);
+   -ms-transform: translateY(50%);
+   -o-transform: translateY(50%);
+}
+
+
+
+
+
+/* duration */
+
 
 
     
