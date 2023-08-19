@@ -1,9 +1,13 @@
+
+// global var
 let btnNav = document.getElementById("btn-nav")
 let offcanvasNav = document.getElementById("offcanvas")
 let iconCloseBtn = document.getElementById("icon-close-btn")
 let closeNaveText = document.querySelector(".fa-bars")
+// global var
 
 
+// navBar
 $(iconCloseBtn).click(function () {
     $(offcanvasNav).css("transform", "translateX(-100%)")
     $(btnNav).css("left", "0")
@@ -28,6 +32,18 @@ $(btnNav).click(function () {
         $(closeNaveText).css("animation","none ")
     }
 })
+// navBar
+
+
+//  singers
+$("#singers p").not(":first").hide()
+
+$("#singers h2").click(function(){
+   $(this).next().slideToggle(600)
+   $("p").not($(this).next()).slideUp(600)
+})
+//  singers
+
 
 
 
