@@ -177,12 +177,18 @@
 /* contact */
 
 #contact{
-    margin-top: 100px;
+    margin-top: 80px;
 }
+#contact h2{
+ font-size: 40px;
+}
+
+
 #contact h2+p{
 position: relative;
 left: 30px;
 width: 200%;
+
 }
 
 
