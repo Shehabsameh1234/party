@@ -55,7 +55,7 @@
 }
 
 #btn-nav {
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 0px;
     z-index: 555555555555555;
@@ -171,3 +171,59 @@
 
 
 /* duration */
+
+
+
+/* contact */
+
+#contact{
+    margin-top: 100px;
+}
+#contact h2+p{
+position: relative;
+left: 30px;
+width: 200%;
+}
+
+
+@media (min-width: 0px) and (max-width: 767px) {
+    #contact h2+p{
+        position: relative;
+        left: 0px;
+        width: 100%;
+        }
+        .contact-info{
+            text-align: center;
+        }
+        #contact form{
+            margin-top: 0px !important;
+        }
+}
+
+
+#contact span>span{
+    border: solid 	#999999 1px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+ text-align: center;
+    margin-right: 15px;
+    cursor: pointer;
+    color: #999999;
+    transition: all .5s;
+    margin-top: 25px;
+}
+
+#contact span>span:hover{
+    background-color: var(--maincolor);
+    color: white;
+}
+#contact span>span i{
+margin-top: 10px;
+}
+
+#contact form{
+    margin-top: 110px;
+}
+
+/* contact */

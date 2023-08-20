@@ -15,13 +15,25 @@
     .bg-home h1 {
         font-size: 45px;
     }
+
     /* home */
 
-            /* singers */
-            #singers{
-                width: 95%;
-            }
-            /* singers */
+    /* singers */
+    #singers {
+        width: 95%;
+    }
+
+    /* singers */
+
+
+    /* contact */
+    #contact span>span {
+        margin-right: 5 px;
+    }
+
+    /* contact */
+
+
 
 }
 
@@ -40,34 +52,55 @@
     .bg-home h1 {
         font-size: 50px;
     }
+
     /* home */
 
-        /* singers */
-        #singers{
-            width: 95%;
-        }
-        /* singers */
+    /* singers */
+    #singers {
+        width: 95%;
+    }
+
+    /* singers */
 
 
 }
 
 @media (min-width: 481px) and (max-width: 640px) {
 
-     /* singers */
-     #singers{
+    /* singers */
+    #singers {
         width: 90% !important;
     }
+
     /* singers */
 }
 
 
 @media (min-width: 641px) and (max-width: 800px) {
+
     /* singers */
-    #singers{
+    #singers {
         width: 90%;
     }
+
     /* singers */
 
+}
+
+
+
+@media (min-width: 0px) and (max-width: 767px) {
+    #contact h2+p{
+        position: relative;
+        left: 0px;
+        width: 100%;
+        }
+        .contact-info{
+            text-align: center;
+        }
+        #contact form{
+            margin-top: 0px !important;
+        }
 }
 
 

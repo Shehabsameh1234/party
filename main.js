@@ -13,8 +13,6 @@ $(iconCloseBtn).click(function () {
     $(offcanvasNav).css("transform", "translateX(-100%)")
     $(btnNav).css("left", "0")
     $(iconCloseBtn).css("animation", "none ")
-   
-  
 })
 
 $(btnNav).click(function () {
@@ -79,13 +77,13 @@ let timer = setInterval(remianing, 1000)
 // duration  countdown
 
 // window scroll
-window.onscroll=function(){
-    if(scrollY>200){
-        btnNav.style.display="none"
-    }else{
-        btnNav.style.display="block"
-    }
-}
+// window.onscroll=function(){
+//     if(scrollY>200){
+//         btnNav.style.display="none"
+//     }else{
+//         btnNav.style.display="block"
+//     }
+// }
 // window scroll
 
 
