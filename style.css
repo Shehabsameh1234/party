@@ -6,7 +6,7 @@
 }
 
 :root {
-    --maincolor: #ef354b;
+    --maincolor: #ea460f;
 }
 
 /* global */
@@ -101,7 +101,7 @@
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 90vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -217,6 +217,7 @@ width: 200%;
 #contact span>span:hover{
     background-color: var(--maincolor);
     color: white;
+    border: solid 	transparent 1px;
 }
 #contact span>span i{
 margin-top: 10px;
@@ -225,5 +226,16 @@ margin-top: 10px;
 #contact form{
     margin-top: 110px;
 }
+#contact form button{
+  background-color: var(--maincolor);
+  color: white;
+}
+#contact .email{
+
+  color:var(--maincolor) ;
+}
 
 /* contact */
+
+
+

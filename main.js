@@ -7,6 +7,8 @@ let singersSec = document.getElementById("singers")
 let closeNavText = document.querySelector(".fa-bars")
 let textArea=document.getElementById("textarea")
 let lettersLeft=document.getElementById("lettersleft")
+let navLink=document.querySelectorAll("#offcanvas a")
+
 // global var
 
 
@@ -78,26 +80,18 @@ function remianing() {
 let timer = setInterval(remianing, 1000)
 // duration  countdown
 
+// textarea letters
 textArea.addEventListener("keyup",function(){
    let textAreaLength= (textArea.value).length
-
 let leftLatters=100-textAreaLength
-
 lettersLeft.innerHTML=leftLatters
-
-
 })
+// textarea letters
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+// change window scroll speed
+$(navLink).on('click', function() {
+    var target = $( $(this).attr('href') );
+        $('html, body').animate({ scrollTop: target.offset().top},2000,false);
+});
+// change window scroll speed
