@@ -188,7 +188,6 @@ width: 200%;
 
 }
 
-
 @media (min-width: 0px) and (max-width: 767px) {
     #contact h2+p{
         position: relative;
@@ -202,7 +201,6 @@ width: 200%;
             margin-top: 20px !important;
         }
 }
-
 
 #contact span>span{
     border: solid 	#999999 1px;
