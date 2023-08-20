@@ -1,4 +1,12 @@
+window.addEventListener("load",function(){
 
+
+    // loading
+    $(document).ready(function () {
+        $("#loading").fadeOut(2000)
+    });
+    // loading
+    
 // global var
 let btnNav = document.getElementById("btn-nav")
 let offcanvasNav = document.getElementById("offcanvas")
@@ -90,3 +98,9 @@ $(navLink).on('click', function() {
         $('html, body').animate({ scrollTop: target.offset().top},2000,false);
 });
 // change window scroll speed
+
+
+
+
+
+})
