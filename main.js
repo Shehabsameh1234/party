@@ -5,6 +5,8 @@ let offcanvasNav = document.getElementById("offcanvas")
 let iconCloseBtn = document.getElementById("icon-close-btn")
 let singersSec = document.getElementById("singers")
 let closeNavText = document.querySelector(".fa-bars")
+let textArea=document.getElementById("textarea")
+let lettersLeft=document.getElementById("lettersleft")
 // global var
 
 
@@ -76,15 +78,15 @@ function remianing() {
 let timer = setInterval(remianing, 1000)
 // duration  countdown
 
-// window scroll
-// window.onscroll=function(){
-//     if(scrollY>200){
-//         btnNav.style.display="none"
-//     }else{
-//         btnNav.style.display="block"
-//     }
-// }
-// window scroll
+textArea.addEventListener("keyup",function(){
+   let textAreaLength= (textArea.value).length
+
+let leftLatters=100-textAreaLength
+
+lettersLeft.innerHTML=leftLatters
+
+
+})
 
 
 
